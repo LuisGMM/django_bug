@@ -26,4 +26,4 @@ COPY ./scripts /scripts
 RUN chmod +x /scripts/*
 
 
-CMD ["/scripts/uvicorn.sh"]
+CMD ["/scripts/daphne.sh"]
